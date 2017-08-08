@@ -1,0 +1,502 @@
+2017-08-07 16:02:51 DEBUG BasicTypeRegistry:148 - Adding type registration boolean -> org.hibernate.type.BooleanType@13b6d03
+2017-08-07 16:02:51 DEBUG BasicTypeRegistry:148 - Adding type registration boolean -> org.hibernate.type.BooleanType@13b6d03
+2017-08-07 16:02:51 DEBUG BasicTypeRegistry:148 - Adding type registration java.lang.Boolean -> org.hibernate.type.BooleanType@13b6d03
+2017-08-07 16:02:51 DEBUG BasicTypeRegistry:148 - Adding type registration numeric_boolean -> org.hibernate.type.NumericBooleanType@7a92922
+2017-08-07 16:02:51 DEBUG BasicTypeRegistry:148 - Adding type registration true_false -> org.hibernate.type.TrueFalseType@66048bfd
+2017-08-07 16:02:51 DEBUG BasicTypeRegistry:148 - Adding type registration yes_no -> org.hibernate.type.YesNoType@61a52fbd
+2017-08-07 16:02:51 DEBUG BasicTypeRegistry:148 - Adding type registration byte -> org.hibernate.type.ByteType@47fd17e3
+2017-08-07 16:02:51 DEBUG BasicTypeRegistry:148 - Adding type registration byte -> org.hibernate.type.ByteType@47fd17e3
+2017-08-07 16:02:51 DEBUG BasicTypeRegistry:148 - Adding type registration java.lang.Byte -> org.hibernate.type.ByteType@47fd17e3
+2017-08-07 16:02:51 DEBUG BasicTypeRegistry:148 - Adding type registration character -> org.hibernate.type.CharacterType@1ae369b7
+2017-08-07 16:02:51 DEBUG BasicTypeRegistry:148 - Adding type registration char -> org.hibernate.type.CharacterType@1ae369b7
+2017-08-07 16:02:51 DEBUG BasicTypeRegistry:148 - Adding type registration java.lang.Character -> org.hibernate.type.CharacterType@1ae369b7
+2017-08-07 16:02:51 DEBUG BasicTypeRegistry:148 - Adding type registration short -> org.hibernate.type.ShortType@7907ec20
+2017-08-07 16:02:51 DEBUG BasicTypeRegistry:148 - Adding type registration short -> org.hibernate.type.ShortType@7907ec20
+2017-08-07 16:02:51 DEBUG BasicTypeRegistry:148 - Adding type registration java.lang.Short -> org.hibernate.type.ShortType@7907ec20
+2017-08-07 16:02:51 DEBUG BasicTypeRegistry:148 - Adding type registration integer -> org.hibernate.type.IntegerType@6ad5c04e
+2017-08-07 16:02:51 DEBUG BasicTypeRegistry:148 - Adding type registration int -> org.hibernate.type.IntegerType@6ad5c04e
+2017-08-07 16:02:51 DEBUG BasicTypeRegistry:148 - Adding type registration java.lang.Integer -> org.hibernate.type.IntegerType@6ad5c04e
+2017-08-07 16:02:51 DEBUG BasicTypeRegistry:148 - Adding type registration long -> org.hibernate.type.LongType@256216b3
+2017-08-07 16:02:51 DEBUG BasicTypeRegistry:148 - Adding type registration long -> org.hibernate.type.LongType@256216b3
+2017-08-07 16:02:51 DEBUG BasicTypeRegistry:148 - Adding type registration java.lang.Long -> org.hibernate.type.LongType@256216b3
+2017-08-07 16:02:51 DEBUG BasicTypeRegistry:148 - Adding type registration float -> org.hibernate.type.FloatType@47f37ef1
+2017-08-07 16:02:51 DEBUG BasicTypeRegistry:148 - Adding type registration float -> org.hibernate.type.FloatType@47f37ef1
+2017-08-07 16:02:51 DEBUG BasicTypeRegistry:148 - Adding type registration java.lang.Float -> org.hibernate.type.FloatType@47f37ef1
+2017-08-07 16:02:51 DEBUG BasicTypeRegistry:148 - Adding type registration double -> org.hibernate.type.DoubleType@1fbc7afb
+2017-08-07 16:02:51 DEBUG BasicTypeRegistry:148 - Adding type registration double -> org.hibernate.type.DoubleType@1fbc7afb
+2017-08-07 16:02:51 DEBUG BasicTypeRegistry:148 - Adding type registration java.lang.Double -> org.hibernate.type.DoubleType@1fbc7afb
+2017-08-07 16:02:51 DEBUG BasicTypeRegistry:148 - Adding type registration big_decimal -> org.hibernate.type.BigDecimalType@c818063
+2017-08-07 16:02:51 DEBUG BasicTypeRegistry:148 - Adding type registration java.math.BigDecimal -> org.hibernate.type.BigDecimalType@c818063
+2017-08-07 16:02:51 DEBUG BasicTypeRegistry:148 - Adding type registration big_integer -> org.hibernate.type.BigIntegerType@35bbe5e8
+2017-08-07 16:02:51 DEBUG BasicTypeRegistry:148 - Adding type registration java.math.BigInteger -> org.hibernate.type.BigIntegerType@35bbe5e8
+2017-08-07 16:02:51 DEBUG BasicTypeRegistry:148 - Adding type registration string -> org.hibernate.type.StringType@1134affc
+2017-08-07 16:02:51 DEBUG BasicTypeRegistry:148 - Adding type registration java.lang.String -> org.hibernate.type.StringType@1134affc
+2017-08-07 16:02:51 DEBUG BasicTypeRegistry:148 - Adding type registration nstring -> org.hibernate.type.StringNVarcharType@2d209079
+2017-08-07 16:02:51 DEBUG BasicTypeRegistry:148 - Adding type registration ncharacter -> org.hibernate.type.CharacterNCharType@1cd072a9
+2017-08-07 16:02:51 DEBUG BasicTypeRegistry:148 - Adding type registration url -> org.hibernate.type.UrlType@48140564
+2017-08-07 16:02:51 DEBUG BasicTypeRegistry:148 - Adding type registration java.net.URL -> org.hibernate.type.UrlType@48140564
+2017-08-07 16:02:51 DEBUG BasicTypeRegistry:148 - Adding type registration date -> org.hibernate.type.DateType@3b6eb2ec
+2017-08-07 16:02:51 DEBUG BasicTypeRegistry:148 - Adding type registration java.sql.Date -> org.hibernate.type.DateType@3b6eb2ec
+2017-08-07 16:02:51 DEBUG BasicTypeRegistry:148 - Adding type registration time -> org.hibernate.type.TimeType@3f3afe78
+2017-08-07 16:02:51 DEBUG BasicTypeRegistry:148 - Adding type registration java.sql.Time -> org.hibernate.type.TimeType@3f3afe78
+2017-08-07 16:02:51 DEBUG BasicTypeRegistry:148 - Adding type registration timestamp -> org.hibernate.type.TimestampType@5b464ce8
+2017-08-07 16:02:51 DEBUG BasicTypeRegistry:148 - Adding type registration java.sql.Timestamp -> org.hibernate.type.TimestampType@5b464ce8
+2017-08-07 16:02:51 DEBUG BasicTypeRegistry:148 - Adding type registration java.util.Date -> org.hibernate.type.TimestampType@5b464ce8
+2017-08-07 16:02:51 DEBUG BasicTypeRegistry:148 - Adding type registration dbtimestamp -> org.hibernate.type.DbTimestampType@17c68925
+2017-08-07 16:02:51 DEBUG BasicTypeRegistry:148 - Adding type registration calendar -> org.hibernate.type.CalendarType@71be98f5
+2017-08-07 16:02:51 DEBUG BasicTypeRegistry:148 - Adding type registration java.util.Calendar -> org.hibernate.type.CalendarType@71be98f5
+2017-08-07 16:02:51 DEBUG BasicTypeRegistry:148 - Adding type registration java.util.GregorianCalendar -> org.hibernate.type.CalendarType@71be98f5
+2017-08-07 16:02:51 DEBUG BasicTypeRegistry:148 - Adding type registration calendar_date -> org.hibernate.type.CalendarDateType@2d6e8792
+2017-08-07 16:02:51 DEBUG BasicTypeRegistry:148 - Adding type registration locale -> org.hibernate.type.LocaleType@3796751b
+2017-08-07 16:02:51 DEBUG BasicTypeRegistry:148 - Adding type registration java.util.Locale -> org.hibernate.type.LocaleType@3796751b
+2017-08-07 16:02:51 DEBUG BasicTypeRegistry:148 - Adding type registration currency -> org.hibernate.type.CurrencyType@35f983a6
+2017-08-07 16:02:51 DEBUG BasicTypeRegistry:148 - Adding type registration java.util.Currency -> org.hibernate.type.CurrencyType@35f983a6
+2017-08-07 16:02:51 DEBUG BasicTypeRegistry:148 - Adding type registration timezone -> org.hibernate.type.TimeZoneType@6108b2d7
+2017-08-07 16:02:51 DEBUG BasicTypeRegistry:148 - Adding type registration java.util.TimeZone -> org.hibernate.type.TimeZoneType@6108b2d7
+2017-08-07 16:02:51 DEBUG BasicTypeRegistry:148 - Adding type registration class -> org.hibernate.type.ClassType@13969fbe
+2017-08-07 16:02:51 DEBUG BasicTypeRegistry:148 - Adding type registration java.lang.Class -> org.hibernate.type.ClassType@13969fbe
+2017-08-07 16:02:52 DEBUG BasicTypeRegistry:148 - Adding type registration uuid-binary -> org.hibernate.type.UUIDBinaryType@3cda1055
+2017-08-07 16:02:52 DEBUG BasicTypeRegistry:148 - Adding type registration java.util.UUID -> org.hibernate.type.UUIDBinaryType@3cda1055
+2017-08-07 16:02:52 DEBUG BasicTypeRegistry:148 - Adding type registration uuid-char -> org.hibernate.type.UUIDCharType@79b4d0f
+2017-08-07 16:02:52 DEBUG BasicTypeRegistry:148 - Adding type registration pg-uuid -> org.hibernate.type.PostgresUUIDType@38082d64
+2017-08-07 16:02:52 DEBUG BasicTypeRegistry:148 - Adding type registration binary -> org.hibernate.type.BinaryType@3b81a1bc
+2017-08-07 16:02:52 DEBUG BasicTypeRegistry:148 - Adding type registration byte[] -> org.hibernate.type.BinaryType@3b81a1bc
+2017-08-07 16:02:52 DEBUG BasicTypeRegistry:148 - Adding type registration [B -> org.hibernate.type.BinaryType@3b81a1bc
+2017-08-07 16:02:52 DEBUG BasicTypeRegistry:148 - Adding type registration wrapper-binary -> org.hibernate.type.WrapperBinaryType@17550481
+2017-08-07 16:02:52 DEBUG BasicTypeRegistry:148 - Adding type registration Byte[] -> org.hibernate.type.WrapperBinaryType@17550481
+2017-08-07 16:02:52 DEBUG BasicTypeRegistry:148 - Adding type registration [Ljava.lang.Byte; -> org.hibernate.type.WrapperBinaryType@17550481
+2017-08-07 16:02:52 DEBUG BasicTypeRegistry:148 - Adding type registration image -> org.hibernate.type.ImageType@246ae04d
+2017-08-07 16:02:52 DEBUG BasicTypeRegistry:148 - Adding type registration characters -> org.hibernate.type.CharArrayType@1e67b872
+2017-08-07 16:02:52 DEBUG BasicTypeRegistry:148 - Adding type registration char[] -> org.hibernate.type.CharArrayType@1e67b872
+2017-08-07 16:02:52 DEBUG BasicTypeRegistry:148 - Adding type registration [C -> org.hibernate.type.CharArrayType@1e67b872
+2017-08-07 16:02:52 DEBUG BasicTypeRegistry:148 - Adding type registration wrapper-characters -> org.hibernate.type.CharacterArrayType@614c5515
+2017-08-07 16:02:52 DEBUG BasicTypeRegistry:148 - Adding type registration [Ljava.lang.Character; -> org.hibernate.type.CharacterArrayType@614c5515
+2017-08-07 16:02:52 DEBUG BasicTypeRegistry:148 - Adding type registration Character[] -> org.hibernate.type.CharacterArrayType@614c5515
+2017-08-07 16:02:52 DEBUG BasicTypeRegistry:148 - Adding type registration text -> org.hibernate.type.TextType@3567135c
+2017-08-07 16:02:52 DEBUG BasicTypeRegistry:148 - Adding type registration ntext -> org.hibernate.type.NTextType@15975490
+2017-08-07 16:02:52 DEBUG BasicTypeRegistry:148 - Adding type registration blob -> org.hibernate.type.BlobType@737996a0
+2017-08-07 16:02:52 DEBUG BasicTypeRegistry:148 - Adding type registration java.sql.Blob -> org.hibernate.type.BlobType@737996a0
+2017-08-07 16:02:52 DEBUG BasicTypeRegistry:148 - Adding type registration materialized_blob -> org.hibernate.type.MaterializedBlobType@2cb4c3ab
+2017-08-07 16:02:52 DEBUG BasicTypeRegistry:148 - Adding type registration clob -> org.hibernate.type.ClobType@2344fc66
+2017-08-07 16:02:52 DEBUG BasicTypeRegistry:148 - Adding type registration java.sql.Clob -> org.hibernate.type.ClobType@2344fc66
+2017-08-07 16:02:52 DEBUG BasicTypeRegistry:148 - Adding type registration nclob -> org.hibernate.type.NClobType@50c87b21
+2017-08-07 16:02:52 DEBUG BasicTypeRegistry:148 - Adding type registration java.sql.NClob -> org.hibernate.type.NClobType@50c87b21
+2017-08-07 16:02:52 DEBUG BasicTypeRegistry:148 - Adding type registration materialized_clob -> org.hibernate.type.MaterializedClobType@32d992b2
+2017-08-07 16:02:52 DEBUG BasicTypeRegistry:148 - Adding type registration materialized_nclob -> org.hibernate.type.MaterializedNClobType@5dfcfece
+2017-08-07 16:02:52 DEBUG BasicTypeRegistry:148 - Adding type registration serializable -> org.hibernate.type.SerializableType@3a82f6ef
+2017-08-07 16:02:52 DEBUG BasicTypeRegistry:148 - Adding type registration object -> org.hibernate.type.ObjectType@735b5592
+2017-08-07 16:02:52 DEBUG BasicTypeRegistry:148 - Adding type registration java.lang.Object -> org.hibernate.type.ObjectType@735b5592
+2017-08-07 16:02:52 DEBUG BasicTypeRegistry:148 - Adding type registration imm_date -> org.hibernate.type.AdaptedImmutableType@5419f379
+2017-08-07 16:02:52 DEBUG BasicTypeRegistry:148 - Adding type registration imm_time -> org.hibernate.type.AdaptedImmutableType@7dc7cbad
+2017-08-07 16:02:52 DEBUG BasicTypeRegistry:148 - Adding type registration imm_timestamp -> org.hibernate.type.AdaptedImmutableType@d2cc05a
+2017-08-07 16:02:52 DEBUG BasicTypeRegistry:148 - Adding type registration imm_dbtimestamp -> org.hibernate.type.AdaptedImmutableType@4f933fd1
+2017-08-07 16:02:52 DEBUG BasicTypeRegistry:148 - Adding type registration imm_calendar -> org.hibernate.type.AdaptedImmutableType@548a9f61
+2017-08-07 16:02:52 DEBUG BasicTypeRegistry:148 - Adding type registration imm_calendar_date -> org.hibernate.type.AdaptedImmutableType@1753acfe
+2017-08-07 16:02:52 DEBUG BasicTypeRegistry:148 - Adding type registration imm_binary -> org.hibernate.type.AdaptedImmutableType@7c16905e
+2017-08-07 16:02:52 DEBUG BasicTypeRegistry:148 - Adding type registration imm_serializable -> org.hibernate.type.AdaptedImmutableType@2a2d45ba
+2017-08-07 16:02:52  INFO Version:37 - HCANN000001: Hibernate Commons Annotations {4.0.2.Final}
+2017-08-07 16:02:52  INFO Version:41 - HHH000412: Hibernate Core {4.2.2.Final}
+2017-08-07 16:02:52  INFO Environment:239 - HHH000206: hibernate.properties not found
+2017-08-07 16:02:52  INFO Environment:342 - HHH000021: Bytecode provider name : javassist
+2017-08-07 16:02:52 DEBUG DefaultIdentifierGeneratorFactory:93 - Registering IdentifierGenerator strategy [uuid2] -> [org.hibernate.id.UUIDGenerator]
+2017-08-07 16:02:52 DEBUG DefaultIdentifierGeneratorFactory:93 - Registering IdentifierGenerator strategy [guid] -> [org.hibernate.id.GUIDGenerator]
+2017-08-07 16:02:52 DEBUG DefaultIdentifierGeneratorFactory:93 - Registering IdentifierGenerator strategy [uuid] -> [org.hibernate.id.UUIDHexGenerator]
+2017-08-07 16:02:52 DEBUG DefaultIdentifierGeneratorFactory:93 - Registering IdentifierGenerator strategy [uuid.hex] -> [org.hibernate.id.UUIDHexGenerator]
+2017-08-07 16:02:52 DEBUG DefaultIdentifierGeneratorFactory:93 - Registering IdentifierGenerator strategy [hilo] -> [org.hibernate.id.TableHiLoGenerator]
+2017-08-07 16:02:52 DEBUG DefaultIdentifierGeneratorFactory:93 - Registering IdentifierGenerator strategy [assigned] -> [org.hibernate.id.Assigned]
+2017-08-07 16:02:52 DEBUG DefaultIdentifierGeneratorFactory:93 - Registering IdentifierGenerator strategy [identity] -> [org.hibernate.id.IdentityGenerator]
+2017-08-07 16:02:52 DEBUG DefaultIdentifierGeneratorFactory:93 - Registering IdentifierGenerator strategy [select] -> [org.hibernate.id.SelectGenerator]
+2017-08-07 16:02:52 DEBUG DefaultIdentifierGeneratorFactory:93 - Registering IdentifierGenerator strategy [sequence] -> [org.hibernate.id.SequenceGenerator]
+2017-08-07 16:02:52 DEBUG DefaultIdentifierGeneratorFactory:93 - Registering IdentifierGenerator strategy [seqhilo] -> [org.hibernate.id.SequenceHiLoGenerator]
+2017-08-07 16:02:52 DEBUG DefaultIdentifierGeneratorFactory:93 - Registering IdentifierGenerator strategy [increment] -> [org.hibernate.id.IncrementGenerator]
+2017-08-07 16:02:52 DEBUG DefaultIdentifierGeneratorFactory:93 - Registering IdentifierGenerator strategy [foreign] -> [org.hibernate.id.ForeignGenerator]
+2017-08-07 16:02:52 DEBUG DefaultIdentifierGeneratorFactory:93 - Registering IdentifierGenerator strategy [sequence-identity] -> [org.hibernate.id.SequenceIdentityGenerator]
+2017-08-07 16:02:52 DEBUG DefaultIdentifierGeneratorFactory:93 - Registering IdentifierGenerator strategy [enhanced-sequence] -> [org.hibernate.id.enhanced.SequenceStyleGenerator]
+2017-08-07 16:02:52 DEBUG DefaultIdentifierGeneratorFactory:93 - Registering IdentifierGenerator strategy [enhanced-table] -> [org.hibernate.id.enhanced.TableGenerator]
+2017-08-07 16:02:52  INFO Configuration:1985 - HHH000043: Configuring from resource: hibernate.cfg.xml
+2017-08-07 16:02:52  INFO Configuration:2004 - HHH000040: Configuration resource: hibernate.cfg.xml
+2017-08-07 16:02:52 DEBUG DTDEntityResolver:68 - Trying to resolve system-id [http://hibernate.sourceforge.net/hibernate-configuration-3.0.dtd]
+2017-08-07 16:02:52  WARN DTDEntityResolver:74 - HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+2017-08-07 16:02:52 DEBUG DTDEntityResolver:75 - Attempting to resolve on classpath under org/hibernate/
+2017-08-07 16:02:52 DEBUG DTDEntityResolver:107 - Located [http://hibernate.sourceforge.net/hibernate-configuration-3.0.dtd] in classpath
+2017-08-07 16:02:52 DEBUG Configuration:1947 - connection.url=jdbc:mysql://localhost:3306/test
+2017-08-07 16:02:52 DEBUG Configuration:1947 - connection.username=root
+2017-08-07 16:02:52 DEBUG Configuration:1947 - connection.password=root
+2017-08-07 16:02:52 DEBUG Configuration:1947 - connection.driver_class=com.mysql.jdbc.Driver
+2017-08-07 16:02:52 DEBUG Configuration:1947 - dialect=org.hibernate.dialect.MySQLDialect
+2017-08-07 16:02:52 DEBUG Configuration:1947 - show_sql=true
+2017-08-07 16:02:52 DEBUG Configuration:1947 - cache.provider_class=org.hibernate.cache.NoCacheProvider
+2017-08-07 16:02:52 DEBUG Configuration:1947 - hibernate.hbm2ddl.auto=create
+2017-08-07 16:02:52 DEBUG Configuration:2186 - Session-factory config [null] named class [com.cf.hibernate.entity.Student] for mapping
+2017-08-07 16:02:52 DEBUG Configuration:2186 - Session-factory config [null] named class [com.cf.hibernate.entity.Heart] for mapping
+2017-08-07 16:02:52 DEBUG Configuration:2186 - Session-factory config [null] named class [com.cf.hibernate.entity.Body] for mapping
+2017-08-07 16:02:52 DEBUG Configuration:2186 - Session-factory config [null] named class [com.cf.hibernate.entity.one2one.inonetable.Employee] for mapping
+2017-08-07 16:02:52 DEBUG Configuration:2186 - Session-factory config [null] named class [com.cf.hibernate.entity.one2one.inonetable.Address] for mapping
+2017-08-07 16:02:52 DEBUG Configuration:2186 - Session-factory config [null] named class [com.cf.hibernate.entity.one2one.foreignkey.Employee] for mapping
+2017-08-07 16:02:52 DEBUG Configuration:2186 - Session-factory config [null] named class [com.cf.hibernate.entity.one2one.foreignkey.Address] for mapping
+2017-08-07 16:02:52  INFO Configuration:2126 - HHH000041: Configured SessionFactory: null
+2017-08-07 16:02:52 DEBUG Configuration:2127 - Properties: {hibernate.connection.password=root, java.runtime.name=Java(TM) SE Runtime Environment, hibernate.cache.provider_class=org.hibernate.cache.NoCacheProvider, sun.boot.library.path=C:\software\jdk8\jre1.8\bin, java.vm.version=25.131-b11, hibernate.connection.username=root, java.vm.vendor=Oracle Corporation, java.vendor.url=http://java.oracle.com/, path.separator=;, java.vm.name=Java HotSpot(TM) 64-Bit Server VM, file.encoding.pkg=sun.io, user.script=, user.country=CN, sun.java.launcher=SUN_STANDARD, sun.os.patch.level=Service Pack 1, java.vm.specification.name=Java Virtual Machine Specification, user.dir=D:\project\eclipse\cf.hibernate, java.runtime.version=1.8.0_131-b11, java.awt.graphicsenv=sun.awt.Win32GraphicsEnvironment, java.endorsed.dirs=C:\software\jdk8\jre1.8\lib\endorsed, os.arch=amd64, java.io.tmpdir=C:\Users\ADMINI~1\AppData\Local\Temp\, line.separator=
+, java.vm.specification.vendor=Oracle Corporation, cache.provider_class=org.hibernate.cache.NoCacheProvider, user.variant=, os.name=Windows 7, sun.jnu.encoding=GBK, java.library.path=C:\software\jdk8\jre1.8\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:/software/jdk8/jre1.8/bin/server;C:/software/jdk8/jre1.8/bin;C:/software/jdk8/jre1.8/lib/amd64;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Windows7Master;C:\Program Files\Microsoft\Web Platform Installer\;C:\Program Files (x86)\Microsoft ASP.NET\ASP.NET Web Pages\v1.0\;C:\Program Files (x86)\Windows Kits\8.0\Windows Performance Toolkit\;C:\Program Files\Microsoft SQL Server\110\Tools\Binn\;C:\software\jdk8\bin;C:\software\jdk8\jre\bin;C:\software\apache-maven-3.5.0\bin;C:\Program Files\TortoiseSVN\bin;;C:\Program Files (x86)\Microsoft VS Code\bin;C:\Users\Administrator\Desktop;;., java.specification.name=Java Platform API Specification, java.class.version=52.0, sun.management.compiler=HotSpot 64-Bit Tiered Compilers, os.version=6.1, connection.password=root, user.home=C:\Users\Administrator, user.timezone=Asia/Shanghai, connection.username=root, java.awt.printerjob=sun.awt.windows.WPrinterJob, file.encoding=UTF-8, java.specification.version=1.8, hibernate.connection.driver_class=com.mysql.jdbc.Driver, show_sql=true, java.class.path=D:\project\eclipse\cf.hibernate\target\test-classes;D:\project\eclipse\cf.hibernate\target\classes;C:\Users\Administrator\.p2\pool\plugins\org.junit_4.12.0.v201504281640\junit.jar;C:\Users\Administrator\.p2\pool\plugins\org.hamcrest.core_1.3.0.v201303031735.jar;C:\software\apache-maven-3.5.0\repository\junit\junit\3.8.1\junit-3.8.1.jar;C:\software\apache-maven-3.5.0\repository\org\hibernate\hibernate-core\4.2.2.Final\hibernate-core-4.2.2.Final.jar;C:\software\apache-maven-3.5.0\repository\antlr\antlr\2.7.7\antlr-2.7.7.jar;C:\software\apache-maven-3.5.0\repository\org\jboss\logging\jboss-logging\3.1.0.GA\jboss-logging-3.1.0.GA.jar;C:\software\apache-maven-3.5.0\repository\dom4j\dom4j\1.6.1\dom4j-1.6.1.jar;C:\software\apache-maven-3.5.0\repository\org\jboss\spec\javax\transaction\jboss-transaction-api_1.1_spec\1.0.1.Final\jboss-transaction-api_1.1_spec-1.0.1.Final.jar;C:\software\apache-maven-3.5.0\repository\org\hibernate\javax\persistence\hibernate-jpa-2.0-api\1.0.1.Final\hibernate-jpa-2.0-api-1.0.1.Final.jar;C:\software\apache-maven-3.5.0\repository\org\hibernate\common\hibernate-commons-annotations\4.0.2.Final\hibernate-commons-annotations-4.0.2.Final.jar;C:\software\apache-maven-3.5.0\repository\org\javassist\javassist\3.15.0-GA\javassist-3.15.0-GA.jar;C:\software\apache-maven-3.5.0\repository\mysql\mysql-connector-java\5.1.34\mysql-connector-java-5.1.34.jar;C:\software\apache-maven-3.5.0\repository\log4j\log4j\1.2.17\log4j-1.2.17.jar;C:\software\apache-maven-3.5.0\repository\org\slf4j\slf4j-simple\1.7.7\slf4j-simple-1.7.7.jar;C:\software\apache-maven-3.5.0\repository\org\slf4j\slf4j-api\1.7.7\slf4j-api-1.7.7.jar;C:\software\eclipse\jee-oxygen\eclipse\configuration\org.eclipse.osgi\412\0\.cp;C:\software\eclipse\jee-oxygen\eclipse\configuration\org.eclipse.osgi\411\0\.cp, user.name=Administrator, hibernate.bytecode.use_reflection_optimizer=false, hibernate.show_sql=true, java.vm.specification.version=1.8, sun.java.command=org.eclipse.jdt.internal.junit.runner.RemoteTestRunner -version 3 -port 55717 -testLoaderClass org.eclipse.jdt.internal.junit4.runner.JUnit4TestLoader -loaderpluginname org.eclipse.jdt.junit4.runtime -test com.cf.hibernate.test.one2one.ForeignKey:foreignkey, java.home=C:\software\jdk8\jre1.8, sun.arch.data.model=64, hibernate.dialect=org.hibernate.dialect.MySQLDialect, hibernate.connection.url=jdbc:mysql://localhost:3306/test, user.language=zh, java.specification.vendor=Oracle Corporation, awt.toolkit=sun.awt.windows.WToolkit, java.vm.info=mixed mode, java.version=1.8.0_131, java.ext.dirs=C:\software\jdk8\jre1.8\lib\ext;C:\Windows\Sun\Java\lib\ext, sun.boot.class.path=C:\software\jdk8\jre1.8\lib\resources.jar;C:\software\jdk8\jre1.8\lib\rt.jar;C:\software\jdk8\jre1.8\lib\sunrsasign.jar;C:\software\jdk8\jre1.8\lib\jsse.jar;C:\software\jdk8\jre1.8\lib\jce.jar;C:\software\jdk8\jre1.8\lib\charsets.jar;C:\software\jdk8\jre1.8\lib\jfr.jar;C:\software\jdk8\jre1.8\classes, java.vendor=Oracle Corporation, connection.driver_class=com.mysql.jdbc.Driver, file.separator=\, hibernate.hbm2ddl.auto=create, java.vendor.url.bug=http://bugreport.sun.com/bugreport/, sun.io.unicode.encoding=UnicodeLittle, sun.cpu.endian=little, sun.desktop=windows, connection.url=jdbc:mysql://localhost:3306/test, dialect=org.hibernate.dialect.MySQLDialect, sun.cpu.isalist=amd64}
+2017-08-07 16:02:52 DEBUG IntegratorServiceImpl:59 - Adding Integrator [org.hibernate.cfg.beanvalidation.BeanValidationIntegrator].
+2017-08-07 16:02:52 DEBUG Configuration:1753 - Preparing to build session factory with filters : {}
+2017-08-07 16:02:52  INFO DriverManagerConnectionProviderImpl:98 - HHH000402: Using Hibernate built-in connection pool (not for production use!)
+2017-08-07 16:02:52  INFO DriverManagerConnectionProviderImpl:134 - HHH000115: Hibernate connection pool size: 20
+2017-08-07 16:02:52  INFO DriverManagerConnectionProviderImpl:137 - HHH000006: Autocommit mode: false
+2017-08-07 16:02:52  INFO DriverManagerConnectionProviderImpl:151 - HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/test]
+2017-08-07 16:02:52  INFO DriverManagerConnectionProviderImpl:154 - HHH000046: Connection properties: {user=root, password=root}
+2017-08-07 16:02:52 DEBUG DriverManagerConnectionProviderImpl:196 - Opening new JDBC connection
+2017-08-07 16:02:52 DEBUG DriverManagerConnectionProviderImpl:219 - Created connection to: jdbc:mysql://localhost:3306/test, Isolation Level: 4
+2017-08-07 16:02:52 DEBUG JdbcServicesImpl:121 - Database ->
+       name : MySQL
+    version : 5.6.37-log
+      major : 5
+      minor : 6
+2017-08-07 16:02:52 DEBUG JdbcServicesImpl:127 - Driver ->
+       name : MySQL Connector Java
+    version : mysql-connector-java-5.1.34 ( Revision: jess.balint@oracle.com-20141014163213-wqbwpf1ok2kvo1om )
+      major : 5
+      minor : 1
+2017-08-07 16:02:52 DEBUG JdbcServicesImpl:133 - JDBC version : 4.0
+2017-08-07 16:02:52  INFO Dialect:130 - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2017-08-07 16:02:52 DEBUG Configuration:3472 - Processing hbm.xml files
+2017-08-07 16:02:52 DEBUG Configuration:3502 - Process annotated classes
+2017-08-07 16:02:52 DEBUG AnnotationBinder:532 - Binding entity from annotated class: com.cf.hibernate.entity.Student
+2017-08-07 16:02:52 DEBUG Ejb3Column:196 - Binding column: Ejb3DiscriminatorColumn{logicalColumnName'DTYPE', discriminatorTypeName='string'}
+2017-08-07 16:02:52 DEBUG AnnotationBinder:990 - No value specified for 'javax.persistence.sharedCache.mode'; using UNSPECIFIED
+2017-08-07 16:02:52 DEBUG EntityBinder:394 - Import with entity name Student
+2017-08-07 16:02:52 DEBUG EntityBinder:564 - Bind entity com.cf.hibernate.entity.Student on table t_student
+2017-08-07 16:02:52 DEBUG Ejb3Column:196 - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(test.t_student), mappingColumn=t_id, insertable=true, updatable=true, unique=true}
+2017-08-07 16:02:52 DEBUG PropertyBinder:179 - MetadataSourceProcessor property id with lazy=false
+2017-08-07 16:02:52 DEBUG SimpleValueBinder:331 - building SimpleValue for id
+2017-08-07 16:02:52 DEBUG PropertyBinder:260 - Building property id
+2017-08-07 16:02:52 DEBUG Ejb3Column:196 - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(test.t_student), mappingColumn=age, insertable=true, updatable=true, unique=false}
+2017-08-07 16:02:52 DEBUG PropertyBinder:179 - MetadataSourceProcessor property age with lazy=false
+2017-08-07 16:02:52 DEBUG SimpleValueBinder:331 - building SimpleValue for age
+2017-08-07 16:02:52 DEBUG PropertyBinder:260 - Building property age
+2017-08-07 16:02:52 DEBUG Ejb3Column:196 - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(test.t_student), mappingColumn=t_name, insertable=true, updatable=true, unique=false}
+2017-08-07 16:02:52 DEBUG PropertyBinder:179 - MetadataSourceProcessor property name with lazy=false
+2017-08-07 16:02:52 DEBUG SimpleValueBinder:331 - building SimpleValue for name
+2017-08-07 16:02:52 DEBUG PropertyBinder:260 - Building property name
+2017-08-07 16:02:52 DEBUG Ejb3Column:196 - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(test.t_student), mappingColumn=t_pwd, insertable=true, updatable=true, unique=false}
+2017-08-07 16:02:52 DEBUG PropertyBinder:179 - MetadataSourceProcessor property password with lazy=false
+2017-08-07 16:02:52 DEBUG SimpleValueBinder:331 - building SimpleValue for password
+2017-08-07 16:02:52 DEBUG PropertyBinder:260 - Building property password
+2017-08-07 16:02:52 DEBUG AnnotationBinder:532 - Binding entity from annotated class: com.cf.hibernate.entity.Heart
+2017-08-07 16:02:52 DEBUG Ejb3Column:196 - Binding column: Ejb3DiscriminatorColumn{logicalColumnName'DTYPE', discriminatorTypeName='string'}
+2017-08-07 16:02:52 DEBUG AnnotationBinder:990 - No value specified for 'javax.persistence.sharedCache.mode'; using UNSPECIFIED
+2017-08-07 16:02:52 DEBUG EntityBinder:394 - Import with entity name Heart
+2017-08-07 16:02:52 DEBUG EntityBinder:564 - Bind entity com.cf.hibernate.entity.Heart on table t_heart
+2017-08-07 16:02:52 DEBUG Ejb3Column:196 - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(test.t_heart), mappingColumn=id, insertable=true, updatable=true, unique=false}
+2017-08-07 16:02:52 DEBUG PropertyBinder:179 - MetadataSourceProcessor property id with lazy=false
+2017-08-07 16:02:52 DEBUG SimpleValueBinder:331 - building SimpleValue for id
+2017-08-07 16:02:52 DEBUG PropertyBinder:260 - Building property id
+2017-08-07 16:02:52 DEBUG Ejb3Column:196 - Binding column: Ejb3JoinColumn{logicalColumnName='null', referencedColumn='null', mappedBy='heart'}
+2017-08-07 16:02:52 DEBUG Ejb3Column:196 - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(test.t_heart), mappingColumn=body, insertable=true, updatable=true, unique=false}
+2017-08-07 16:02:52 DEBUG Ejb3Column:196 - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(test.t_heart), mappingColumn=content, insertable=true, updatable=true, unique=false}
+2017-08-07 16:02:52 DEBUG PropertyBinder:179 - MetadataSourceProcessor property content with lazy=false
+2017-08-07 16:02:52 DEBUG SimpleValueBinder:331 - building SimpleValue for content
+2017-08-07 16:02:52 DEBUG PropertyBinder:260 - Building property content
+2017-08-07 16:02:52 DEBUG AnnotationBinder:532 - Binding entity from annotated class: com.cf.hibernate.entity.Body
+2017-08-07 16:02:52 DEBUG Ejb3Column:196 - Binding column: Ejb3DiscriminatorColumn{logicalColumnName'DTYPE', discriminatorTypeName='string'}
+2017-08-07 16:02:52 DEBUG AnnotationBinder:990 - No value specified for 'javax.persistence.sharedCache.mode'; using UNSPECIFIED
+2017-08-07 16:02:52 DEBUG EntityBinder:394 - Import with entity name Body
+2017-08-07 16:02:52 DEBUG EntityBinder:564 - Bind entity com.cf.hibernate.entity.Body on table t_body
+2017-08-07 16:02:52 DEBUG Ejb3Column:196 - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(test.t_body), mappingColumn=id, insertable=true, updatable=true, unique=false}
+2017-08-07 16:02:52 DEBUG PropertyBinder:179 - MetadataSourceProcessor property id with lazy=false
+2017-08-07 16:02:52 DEBUG SimpleValueBinder:331 - building SimpleValue for id
+2017-08-07 16:02:52 DEBUG PropertyBinder:260 - Building property id
+2017-08-07 16:02:52 DEBUG Ejb3Column:196 - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(test.t_body), mappingColumn=content, insertable=true, updatable=true, unique=false}
+2017-08-07 16:02:52 DEBUG PropertyBinder:179 - MetadataSourceProcessor property content with lazy=false
+2017-08-07 16:02:52 DEBUG SimpleValueBinder:331 - building SimpleValue for content
+2017-08-07 16:02:52 DEBUG PropertyBinder:260 - Building property content
+2017-08-07 16:02:52 DEBUG Ejb3Column:196 - Binding column: Ejb3JoinColumn{logicalColumnName='null', referencedColumn='null', mappedBy=''}
+2017-08-07 16:02:52 DEBUG Ejb3Column:196 - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(test.t_body), mappingColumn=heart, insertable=true, updatable=true, unique=false}
+2017-08-07 16:02:52 DEBUG AnnotationBinder:532 - Binding entity from annotated class: com.cf.hibernate.entity.one2one.inonetable.Employee
+2017-08-07 16:02:52 DEBUG Ejb3Column:196 - Binding column: Ejb3DiscriminatorColumn{logicalColumnName'DTYPE', discriminatorTypeName='string'}
+2017-08-07 16:02:52 DEBUG AnnotationBinder:990 - No value specified for 'javax.persistence.sharedCache.mode'; using UNSPECIFIED
+2017-08-07 16:02:52 DEBUG EntityBinder:394 - Import with entity name Employee
+2017-08-07 16:02:52 DEBUG EntityBinder:564 - Bind entity com.cf.hibernate.entity.one2one.inonetable.Employee on table Employee
+2017-08-07 16:02:52 DEBUG Ejb3Column:196 - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(Employee), mappingColumn=id, insertable=true, updatable=true, unique=false}
+2017-08-07 16:02:52 DEBUG PropertyBinder:179 - MetadataSourceProcessor property id with lazy=false
+2017-08-07 16:02:52 DEBUG SimpleValueBinder:331 - building SimpleValue for id
+2017-08-07 16:02:52 DEBUG PropertyBinder:260 - Building property id
+2017-08-07 16:02:52 DEBUG Ejb3Column:196 - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(Employee), mappingColumn=address, insertable=true, updatable=true, unique=false}
+2017-08-07 16:02:52 DEBUG Ejb3Column:196 - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(Employee), mappingColumn=city, insertable=true, updatable=true, unique=false}
+2017-08-07 16:02:52 DEBUG PropertyBinder:179 - MetadataSourceProcessor property city with lazy=false
+2017-08-07 16:02:52 DEBUG SimpleValueBinder:331 - building SimpleValue for city
+2017-08-07 16:02:52 DEBUG PropertyBinder:260 - Building property city
+2017-08-07 16:02:52 DEBUG Ejb3Column:196 - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(Employee), mappingColumn=state, insertable=true, updatable=true, unique=false}
+2017-08-07 16:02:52 DEBUG PropertyBinder:179 - MetadataSourceProcessor property state with lazy=false
+2017-08-07 16:02:52 DEBUG SimpleValueBinder:331 - building SimpleValue for state
+2017-08-07 16:02:52 DEBUG PropertyBinder:260 - Building property state
+2017-08-07 16:02:52 DEBUG Ejb3Column:196 - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(Employee), mappingColumn=street, insertable=true, updatable=true, unique=false}
+2017-08-07 16:02:52 DEBUG PropertyBinder:179 - MetadataSourceProcessor property street with lazy=false
+2017-08-07 16:02:52 DEBUG SimpleValueBinder:331 - building SimpleValue for street
+2017-08-07 16:02:52 DEBUG PropertyBinder:260 - Building property street
+2017-08-07 16:02:52 DEBUG PropertyBinder:260 - Building property address
+2017-08-07 16:02:52 DEBUG Ejb3Column:196 - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(Employee), mappingColumn=name, insertable=true, updatable=true, unique=false}
+2017-08-07 16:02:52 DEBUG PropertyBinder:179 - MetadataSourceProcessor property name with lazy=false
+2017-08-07 16:02:52 DEBUG SimpleValueBinder:331 - building SimpleValue for name
+2017-08-07 16:02:52 DEBUG PropertyBinder:260 - Building property name
+2017-08-07 16:02:52 DEBUG Ejb3Column:196 - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(Employee), mappingColumn=salary, insertable=true, updatable=true, unique=false}
+2017-08-07 16:02:52 DEBUG PropertyBinder:179 - MetadataSourceProcessor property salary with lazy=false
+2017-08-07 16:02:52 DEBUG SimpleValueBinder:331 - building SimpleValue for salary
+2017-08-07 16:02:52 DEBUG PropertyBinder:260 - Building property salary
+2017-08-07 16:02:52 DEBUG AnnotationBinder:532 - Binding entity from annotated class: com.cf.hibernate.entity.one2one.foreignkey.Employee
+2017-08-07 16:02:52 DEBUG Ejb3Column:196 - Binding column: Ejb3DiscriminatorColumn{logicalColumnName'DTYPE', discriminatorTypeName='string'}
+2017-08-07 16:02:52 DEBUG AnnotationBinder:990 - No value specified for 'javax.persistence.sharedCache.mode'; using UNSPECIFIED
+2017-08-07 16:02:52 DEBUG EntityBinder:394 - Import with entity name Employee
+2017-08-07 16:02:52  INFO DriverManagerConnectionProviderImpl:160 - HHH000030: Cleaning up connection pool [jdbc:mysql://localhost:3306/test]
+2017-08-07 16:03:23 DEBUG BasicTypeRegistry:148 - Adding type registration boolean -> org.hibernate.type.BooleanType@1c53fd30
+2017-08-07 16:03:23 DEBUG BasicTypeRegistry:148 - Adding type registration boolean -> org.hibernate.type.BooleanType@1c53fd30
+2017-08-07 16:03:23 DEBUG BasicTypeRegistry:148 - Adding type registration java.lang.Boolean -> org.hibernate.type.BooleanType@1c53fd30
+2017-08-07 16:03:23 DEBUG BasicTypeRegistry:148 - Adding type registration numeric_boolean -> org.hibernate.type.NumericBooleanType@21a06946
+2017-08-07 16:03:23 DEBUG BasicTypeRegistry:148 - Adding type registration true_false -> org.hibernate.type.TrueFalseType@5474c6c
+2017-08-07 16:03:23 DEBUG BasicTypeRegistry:148 - Adding type registration yes_no -> org.hibernate.type.YesNoType@591f989e
+2017-08-07 16:03:23 DEBUG BasicTypeRegistry:148 - Adding type registration byte -> org.hibernate.type.ByteType@7bb11784
+2017-08-07 16:03:23 DEBUG BasicTypeRegistry:148 - Adding type registration byte -> org.hibernate.type.ByteType@7bb11784
+2017-08-07 16:03:23 DEBUG BasicTypeRegistry:148 - Adding type registration java.lang.Byte -> org.hibernate.type.ByteType@7bb11784
+2017-08-07 16:03:23 DEBUG BasicTypeRegistry:148 - Adding type registration character -> org.hibernate.type.CharacterType@7cdbc5d3
+2017-08-07 16:03:23 DEBUG BasicTypeRegistry:148 - Adding type registration char -> org.hibernate.type.CharacterType@7cdbc5d3
+2017-08-07 16:03:23 DEBUG BasicTypeRegistry:148 - Adding type registration java.lang.Character -> org.hibernate.type.CharacterType@7cdbc5d3
+2017-08-07 16:03:23 DEBUG BasicTypeRegistry:148 - Adding type registration short -> org.hibernate.type.ShortType@2aafb23c
+2017-08-07 16:03:23 DEBUG BasicTypeRegistry:148 - Adding type registration short -> org.hibernate.type.ShortType@2aafb23c
+2017-08-07 16:03:23 DEBUG BasicTypeRegistry:148 - Adding type registration java.lang.Short -> org.hibernate.type.ShortType@2aafb23c
+2017-08-07 16:03:23 DEBUG BasicTypeRegistry:148 - Adding type registration integer -> org.hibernate.type.IntegerType@546a03af
+2017-08-07 16:03:23 DEBUG BasicTypeRegistry:148 - Adding type registration int -> org.hibernate.type.IntegerType@546a03af
+2017-08-07 16:03:23 DEBUG BasicTypeRegistry:148 - Adding type registration java.lang.Integer -> org.hibernate.type.IntegerType@546a03af
+2017-08-07 16:03:23 DEBUG BasicTypeRegistry:148 - Adding type registration long -> org.hibernate.type.LongType@649d209a
+2017-08-07 16:03:23 DEBUG BasicTypeRegistry:148 - Adding type registration long -> org.hibernate.type.LongType@649d209a
+2017-08-07 16:03:23 DEBUG BasicTypeRegistry:148 - Adding type registration java.lang.Long -> org.hibernate.type.LongType@649d209a
+2017-08-07 16:03:23 DEBUG BasicTypeRegistry:148 - Adding type registration float -> org.hibernate.type.FloatType@4ec6a292
+2017-08-07 16:03:23 DEBUG BasicTypeRegistry:148 - Adding type registration float -> org.hibernate.type.FloatType@4ec6a292
+2017-08-07 16:03:23 DEBUG BasicTypeRegistry:148 - Adding type registration java.lang.Float -> org.hibernate.type.FloatType@4ec6a292
+2017-08-07 16:03:23 DEBUG BasicTypeRegistry:148 - Adding type registration double -> org.hibernate.type.DoubleType@19bb089b
+2017-08-07 16:03:23 DEBUG BasicTypeRegistry:148 - Adding type registration double -> org.hibernate.type.DoubleType@19bb089b
+2017-08-07 16:03:23 DEBUG BasicTypeRegistry:148 - Adding type registration java.lang.Double -> org.hibernate.type.DoubleType@19bb089b
+2017-08-07 16:03:23 DEBUG BasicTypeRegistry:148 - Adding type registration big_decimal -> org.hibernate.type.BigDecimalType@7e0babb1
+2017-08-07 16:03:23 DEBUG BasicTypeRegistry:148 - Adding type registration java.math.BigDecimal -> org.hibernate.type.BigDecimalType@7e0babb1
+2017-08-07 16:03:23 DEBUG BasicTypeRegistry:148 - Adding type registration big_integer -> org.hibernate.type.BigIntegerType@3f0ee7cb
+2017-08-07 16:03:23 DEBUG BasicTypeRegistry:148 - Adding type registration java.math.BigInteger -> org.hibernate.type.BigIntegerType@3f0ee7cb
+2017-08-07 16:03:23 DEBUG BasicTypeRegistry:148 - Adding type registration string -> org.hibernate.type.StringType@2c8d66b2
+2017-08-07 16:03:23 DEBUG BasicTypeRegistry:148 - Adding type registration java.lang.String -> org.hibernate.type.StringType@2c8d66b2
+2017-08-07 16:03:23 DEBUG BasicTypeRegistry:148 - Adding type registration nstring -> org.hibernate.type.StringNVarcharType@d041cf
+2017-08-07 16:03:23 DEBUG BasicTypeRegistry:148 - Adding type registration ncharacter -> org.hibernate.type.CharacterNCharType@6bdf28bb
+2017-08-07 16:03:23 DEBUG BasicTypeRegistry:148 - Adding type registration url -> org.hibernate.type.UrlType@7c75222b
+2017-08-07 16:03:23 DEBUG BasicTypeRegistry:148 - Adding type registration java.net.URL -> org.hibernate.type.UrlType@7c75222b
+2017-08-07 16:03:23 DEBUG BasicTypeRegistry:148 - Adding type registration date -> org.hibernate.type.DateType@43a25848
+2017-08-07 16:03:23 DEBUG BasicTypeRegistry:148 - Adding type registration java.sql.Date -> org.hibernate.type.DateType@43a25848
+2017-08-07 16:03:23 DEBUG BasicTypeRegistry:148 - Adding type registration time -> org.hibernate.type.TimeType@7a79be86
+2017-08-07 16:03:23 DEBUG BasicTypeRegistry:148 - Adding type registration java.sql.Time -> org.hibernate.type.TimeType@7a79be86
+2017-08-07 16:03:23 DEBUG BasicTypeRegistry:148 - Adding type registration timestamp -> org.hibernate.type.TimestampType@39ba5a14
+2017-08-07 16:03:23 DEBUG BasicTypeRegistry:148 - Adding type registration java.sql.Timestamp -> org.hibernate.type.TimestampType@39ba5a14
+2017-08-07 16:03:23 DEBUG BasicTypeRegistry:148 - Adding type registration java.util.Date -> org.hibernate.type.TimestampType@39ba5a14
+2017-08-07 16:03:23 DEBUG BasicTypeRegistry:148 - Adding type registration dbtimestamp -> org.hibernate.type.DbTimestampType@30c7da1e
+2017-08-07 16:03:23 DEBUG BasicTypeRegistry:148 - Adding type registration calendar -> org.hibernate.type.CalendarType@7e0ea639
+2017-08-07 16:03:23 DEBUG BasicTypeRegistry:148 - Adding type registration java.util.Calendar -> org.hibernate.type.CalendarType@7e0ea639
+2017-08-07 16:03:23 DEBUG BasicTypeRegistry:148 - Adding type registration java.util.GregorianCalendar -> org.hibernate.type.CalendarType@7e0ea639
+2017-08-07 16:03:23 DEBUG BasicTypeRegistry:148 - Adding type registration calendar_date -> org.hibernate.type.CalendarDateType@7a0ac6e3
+2017-08-07 16:03:23 DEBUG BasicTypeRegistry:148 - Adding type registration locale -> org.hibernate.type.LocaleType@2812cbfa
+2017-08-07 16:03:23 DEBUG BasicTypeRegistry:148 - Adding type registration java.util.Locale -> org.hibernate.type.LocaleType@2812cbfa
+2017-08-07 16:03:23 DEBUG BasicTypeRegistry:148 - Adding type registration currency -> org.hibernate.type.CurrencyType@67b64c45
+2017-08-07 16:03:23 DEBUG BasicTypeRegistry:148 - Adding type registration java.util.Currency -> org.hibernate.type.CurrencyType@67b64c45
+2017-08-07 16:03:23 DEBUG BasicTypeRegistry:148 - Adding type registration timezone -> org.hibernate.type.TimeZoneType@7f690630
+2017-08-07 16:03:23 DEBUG BasicTypeRegistry:148 - Adding type registration java.util.TimeZone -> org.hibernate.type.TimeZoneType@7f690630
+2017-08-07 16:03:23 DEBUG BasicTypeRegistry:148 - Adding type registration class -> org.hibernate.type.ClassType@1554909b
+2017-08-07 16:03:23 DEBUG BasicTypeRegistry:148 - Adding type registration java.lang.Class -> org.hibernate.type.ClassType@1554909b
+2017-08-07 16:03:23 DEBUG BasicTypeRegistry:148 - Adding type registration uuid-binary -> org.hibernate.type.UUIDBinaryType@5ebec15
+2017-08-07 16:03:23 DEBUG BasicTypeRegistry:148 - Adding type registration java.util.UUID -> org.hibernate.type.UUIDBinaryType@5ebec15
+2017-08-07 16:03:23 DEBUG BasicTypeRegistry:148 - Adding type registration uuid-char -> org.hibernate.type.UUIDCharType@668bc3d5
+2017-08-07 16:03:23 DEBUG BasicTypeRegistry:148 - Adding type registration pg-uuid -> org.hibernate.type.PostgresUUIDType@6b2fad11
+2017-08-07 16:03:23 DEBUG BasicTypeRegistry:148 - Adding type registration binary -> org.hibernate.type.BinaryType@dfd3711
+2017-08-07 16:03:23 DEBUG BasicTypeRegistry:148 - Adding type registration byte[] -> org.hibernate.type.BinaryType@dfd3711
+2017-08-07 16:03:23 DEBUG BasicTypeRegistry:148 - Adding type registration [B -> org.hibernate.type.BinaryType@dfd3711
+2017-08-07 16:03:23 DEBUG BasicTypeRegistry:148 - Adding type registration wrapper-binary -> org.hibernate.type.WrapperBinaryType@64616ca2
+2017-08-07 16:03:23 DEBUG BasicTypeRegistry:148 - Adding type registration Byte[] -> org.hibernate.type.WrapperBinaryType@64616ca2
+2017-08-07 16:03:23 DEBUG BasicTypeRegistry:148 - Adding type registration [Ljava.lang.Byte; -> org.hibernate.type.WrapperBinaryType@64616ca2
+2017-08-07 16:03:23 DEBUG BasicTypeRegistry:148 - Adding type registration image -> org.hibernate.type.ImageType@735f7ae5
+2017-08-07 16:03:23 DEBUG BasicTypeRegistry:148 - Adding type registration characters -> org.hibernate.type.CharArrayType@62043840
+2017-08-07 16:03:23 DEBUG BasicTypeRegistry:148 - Adding type registration char[] -> org.hibernate.type.CharArrayType@62043840
+2017-08-07 16:03:23 DEBUG BasicTypeRegistry:148 - Adding type registration [C -> org.hibernate.type.CharArrayType@62043840
+2017-08-07 16:03:23 DEBUG BasicTypeRegistry:148 - Adding type registration wrapper-characters -> org.hibernate.type.CharacterArrayType@60addb54
+2017-08-07 16:03:23 DEBUG BasicTypeRegistry:148 - Adding type registration [Ljava.lang.Character; -> org.hibernate.type.CharacterArrayType@60addb54
+2017-08-07 16:03:23 DEBUG BasicTypeRegistry:148 - Adding type registration Character[] -> org.hibernate.type.CharacterArrayType@60addb54
+2017-08-07 16:03:23 DEBUG BasicTypeRegistry:148 - Adding type registration text -> org.hibernate.type.TextType@77b52d12
+2017-08-07 16:03:23 DEBUG BasicTypeRegistry:148 - Adding type registration ntext -> org.hibernate.type.NTextType@327471b5
+2017-08-07 16:03:23 DEBUG BasicTypeRegistry:148 - Adding type registration blob -> org.hibernate.type.BlobType@2c9f9fb0
+2017-08-07 16:03:23 DEBUG BasicTypeRegistry:148 - Adding type registration java.sql.Blob -> org.hibernate.type.BlobType@2c9f9fb0
+2017-08-07 16:03:23 DEBUG BasicTypeRegistry:148 - Adding type registration materialized_blob -> org.hibernate.type.MaterializedBlobType@234bef66
+2017-08-07 16:03:23 DEBUG BasicTypeRegistry:148 - Adding type registration clob -> org.hibernate.type.ClobType@32e6e9c3
+2017-08-07 16:03:23 DEBUG BasicTypeRegistry:148 - Adding type registration java.sql.Clob -> org.hibernate.type.ClobType@32e6e9c3
+2017-08-07 16:03:23 DEBUG BasicTypeRegistry:148 - Adding type registration nclob -> org.hibernate.type.NClobType@6d8a00e3
+2017-08-07 16:03:23 DEBUG BasicTypeRegistry:148 - Adding type registration java.sql.NClob -> org.hibernate.type.NClobType@6d8a00e3
+2017-08-07 16:03:23 DEBUG BasicTypeRegistry:148 - Adding type registration materialized_clob -> org.hibernate.type.MaterializedClobType@6d78f375
+2017-08-07 16:03:23 DEBUG BasicTypeRegistry:148 - Adding type registration materialized_nclob -> org.hibernate.type.MaterializedNClobType@1810399e
+2017-08-07 16:03:23 DEBUG BasicTypeRegistry:148 - Adding type registration serializable -> org.hibernate.type.SerializableType@23ceabc1
+2017-08-07 16:03:23 DEBUG BasicTypeRegistry:148 - Adding type registration object -> org.hibernate.type.ObjectType@51081592
+2017-08-07 16:03:23 DEBUG BasicTypeRegistry:148 - Adding type registration java.lang.Object -> org.hibernate.type.ObjectType@51081592
+2017-08-07 16:03:23 DEBUG BasicTypeRegistry:148 - Adding type registration imm_date -> org.hibernate.type.AdaptedImmutableType@62ee68d8
+2017-08-07 16:03:23 DEBUG BasicTypeRegistry:148 - Adding type registration imm_time -> org.hibernate.type.AdaptedImmutableType@735b5592
+2017-08-07 16:03:23 DEBUG BasicTypeRegistry:148 - Adding type registration imm_timestamp -> org.hibernate.type.AdaptedImmutableType@58651fd0
+2017-08-07 16:03:23 DEBUG BasicTypeRegistry:148 - Adding type registration imm_dbtimestamp -> org.hibernate.type.AdaptedImmutableType@4520ebad
+2017-08-07 16:03:23 DEBUG BasicTypeRegistry:148 - Adding type registration imm_calendar -> org.hibernate.type.AdaptedImmutableType@5419f379
+2017-08-07 16:03:23 DEBUG BasicTypeRegistry:148 - Adding type registration imm_calendar_date -> org.hibernate.type.AdaptedImmutableType@7dc7cbad
+2017-08-07 16:03:23 DEBUG BasicTypeRegistry:148 - Adding type registration imm_binary -> org.hibernate.type.AdaptedImmutableType@d2cc05a
+2017-08-07 16:03:23 DEBUG BasicTypeRegistry:148 - Adding type registration imm_serializable -> org.hibernate.type.AdaptedImmutableType@4f933fd1
+2017-08-07 16:03:23  INFO Version:37 - HCANN000001: Hibernate Commons Annotations {4.0.2.Final}
+2017-08-07 16:03:23  INFO Version:41 - HHH000412: Hibernate Core {4.2.2.Final}
+2017-08-07 16:03:23  INFO Environment:239 - HHH000206: hibernate.properties not found
+2017-08-07 16:03:23  INFO Environment:342 - HHH000021: Bytecode provider name : javassist
+2017-08-07 16:03:23 DEBUG DefaultIdentifierGeneratorFactory:93 - Registering IdentifierGenerator strategy [uuid2] -> [org.hibernate.id.UUIDGenerator]
+2017-08-07 16:03:23 DEBUG DefaultIdentifierGeneratorFactory:93 - Registering IdentifierGenerator strategy [guid] -> [org.hibernate.id.GUIDGenerator]
+2017-08-07 16:03:23 DEBUG DefaultIdentifierGeneratorFactory:93 - Registering IdentifierGenerator strategy [uuid] -> [org.hibernate.id.UUIDHexGenerator]
+2017-08-07 16:03:23 DEBUG DefaultIdentifierGeneratorFactory:93 - Registering IdentifierGenerator strategy [uuid.hex] -> [org.hibernate.id.UUIDHexGenerator]
+2017-08-07 16:03:23 DEBUG DefaultIdentifierGeneratorFactory:93 - Registering IdentifierGenerator strategy [hilo] -> [org.hibernate.id.TableHiLoGenerator]
+2017-08-07 16:03:23 DEBUG DefaultIdentifierGeneratorFactory:93 - Registering IdentifierGenerator strategy [assigned] -> [org.hibernate.id.Assigned]
+2017-08-07 16:03:23 DEBUG DefaultIdentifierGeneratorFactory:93 - Registering IdentifierGenerator strategy [identity] -> [org.hibernate.id.IdentityGenerator]
+2017-08-07 16:03:23 DEBUG DefaultIdentifierGeneratorFactory:93 - Registering IdentifierGenerator strategy [select] -> [org.hibernate.id.SelectGenerator]
+2017-08-07 16:03:23 DEBUG DefaultIdentifierGeneratorFactory:93 - Registering IdentifierGenerator strategy [sequence] -> [org.hibernate.id.SequenceGenerator]
+2017-08-07 16:03:23 DEBUG DefaultIdentifierGeneratorFactory:93 - Registering IdentifierGenerator strategy [seqhilo] -> [org.hibernate.id.SequenceHiLoGenerator]
+2017-08-07 16:03:23 DEBUG DefaultIdentifierGeneratorFactory:93 - Registering IdentifierGenerator strategy [increment] -> [org.hibernate.id.IncrementGenerator]
+2017-08-07 16:03:23 DEBUG DefaultIdentifierGeneratorFactory:93 - Registering IdentifierGenerator strategy [foreign] -> [org.hibernate.id.ForeignGenerator]
+2017-08-07 16:03:23 DEBUG DefaultIdentifierGeneratorFactory:93 - Registering IdentifierGenerator strategy [sequence-identity] -> [org.hibernate.id.SequenceIdentityGenerator]
+2017-08-07 16:03:23 DEBUG DefaultIdentifierGeneratorFactory:93 - Registering IdentifierGenerator strategy [enhanced-sequence] -> [org.hibernate.id.enhanced.SequenceStyleGenerator]
+2017-08-07 16:03:23 DEBUG DefaultIdentifierGeneratorFactory:93 - Registering IdentifierGenerator strategy [enhanced-table] -> [org.hibernate.id.enhanced.TableGenerator]
+2017-08-07 16:03:23  INFO Configuration:1985 - HHH000043: Configuring from resource: hibernate.cfg.xml
+2017-08-07 16:03:23  INFO Configuration:2004 - HHH000040: Configuration resource: hibernate.cfg.xml
+2017-08-07 16:03:23 DEBUG DTDEntityResolver:68 - Trying to resolve system-id [http://hibernate.sourceforge.net/hibernate-configuration-3.0.dtd]
+2017-08-07 16:03:23  WARN DTDEntityResolver:74 - HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+2017-08-07 16:03:23 DEBUG DTDEntityResolver:75 - Attempting to resolve on classpath under org/hibernate/
+2017-08-07 16:03:23 DEBUG DTDEntityResolver:107 - Located [http://hibernate.sourceforge.net/hibernate-configuration-3.0.dtd] in classpath
+2017-08-07 16:03:23 DEBUG Configuration:1947 - connection.url=jdbc:mysql://localhost:3306/test
+2017-08-07 16:03:23 DEBUG Configuration:1947 - connection.username=root
+2017-08-07 16:03:23 DEBUG Configuration:1947 - connection.password=root
+2017-08-07 16:03:23 DEBUG Configuration:1947 - connection.driver_class=com.mysql.jdbc.Driver
+2017-08-07 16:03:23 DEBUG Configuration:1947 - dialect=org.hibernate.dialect.MySQLDialect
+2017-08-07 16:03:23 DEBUG Configuration:1947 - show_sql=true
+2017-08-07 16:03:23 DEBUG Configuration:1947 - cache.provider_class=org.hibernate.cache.NoCacheProvider
+2017-08-07 16:03:23 DEBUG Configuration:1947 - hibernate.hbm2ddl.auto=create
+2017-08-07 16:03:23 DEBUG Configuration:2186 - Session-factory config [null] named class [com.cf.hibernate.entity.Student] for mapping
+2017-08-07 16:03:23 DEBUG Configuration:2186 - Session-factory config [null] named class [com.cf.hibernate.entity.Heart] for mapping
+2017-08-07 16:03:23 DEBUG Configuration:2186 - Session-factory config [null] named class [com.cf.hibernate.entity.Body] for mapping
+2017-08-07 16:03:23 DEBUG Configuration:2186 - Session-factory config [null] named class [com.cf.hibernate.entity.one2one.inonetable.Employee] for mapping
+2017-08-07 16:03:23 DEBUG Configuration:2186 - Session-factory config [null] named class [com.cf.hibernate.entity.one2one.inonetable.Address] for mapping
+2017-08-07 16:03:23 DEBUG Configuration:2186 - Session-factory config [null] named class [com.cf.hibernate.entity.one2one.foreignkey.Employee] for mapping
+2017-08-07 16:03:23 DEBUG Configuration:2186 - Session-factory config [null] named class [com.cf.hibernate.entity.one2one.foreignkey.Address] for mapping
+2017-08-07 16:03:23  INFO Configuration:2126 - HHH000041: Configured SessionFactory: null
+2017-08-07 16:03:23 DEBUG Configuration:2127 - Properties: {hibernate.connection.password=root, java.runtime.name=Java(TM) SE Runtime Environment, hibernate.cache.provider_class=org.hibernate.cache.NoCacheProvider, sun.boot.library.path=C:\software\jdk8\jre1.8\bin, java.vm.version=25.131-b11, hibernate.connection.username=root, java.vm.vendor=Oracle Corporation, java.vendor.url=http://java.oracle.com/, path.separator=;, java.vm.name=Java HotSpot(TM) 64-Bit Server VM, file.encoding.pkg=sun.io, user.script=, user.country=CN, sun.java.launcher=SUN_STANDARD, sun.os.patch.level=Service Pack 1, java.vm.specification.name=Java Virtual Machine Specification, user.dir=D:\project\eclipse\cf.hibernate, java.runtime.version=1.8.0_131-b11, java.awt.graphicsenv=sun.awt.Win32GraphicsEnvironment, java.endorsed.dirs=C:\software\jdk8\jre1.8\lib\endorsed, os.arch=amd64, java.io.tmpdir=C:\Users\ADMINI~1\AppData\Local\Temp\, line.separator=
+, java.vm.specification.vendor=Oracle Corporation, cache.provider_class=org.hibernate.cache.NoCacheProvider, user.variant=, os.name=Windows 7, sun.jnu.encoding=GBK, java.library.path=C:\software\jdk8\jre1.8\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:/software/jdk8/jre1.8/bin/server;C:/software/jdk8/jre1.8/bin;C:/software/jdk8/jre1.8/lib/amd64;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Windows7Master;C:\Program Files\Microsoft\Web Platform Installer\;C:\Program Files (x86)\Microsoft ASP.NET\ASP.NET Web Pages\v1.0\;C:\Program Files (x86)\Windows Kits\8.0\Windows Performance Toolkit\;C:\Program Files\Microsoft SQL Server\110\Tools\Binn\;C:\software\jdk8\bin;C:\software\jdk8\jre\bin;C:\software\apache-maven-3.5.0\bin;C:\Program Files\TortoiseSVN\bin;;C:\Program Files (x86)\Microsoft VS Code\bin;C:\Users\Administrator\Desktop;;., java.specification.name=Java Platform API Specification, java.class.version=52.0, sun.management.compiler=HotSpot 64-Bit Tiered Compilers, os.version=6.1, connection.password=root, user.home=C:\Users\Administrator, user.timezone=Asia/Shanghai, connection.username=root, java.awt.printerjob=sun.awt.windows.WPrinterJob, file.encoding=UTF-8, java.specification.version=1.8, hibernate.connection.driver_class=com.mysql.jdbc.Driver, show_sql=true, java.class.path=D:\project\eclipse\cf.hibernate\target\test-classes;D:\project\eclipse\cf.hibernate\target\classes;C:\Users\Administrator\.p2\pool\plugins\org.junit_4.12.0.v201504281640\junit.jar;C:\Users\Administrator\.p2\pool\plugins\org.hamcrest.core_1.3.0.v201303031735.jar;C:\software\apache-maven-3.5.0\repository\junit\junit\3.8.1\junit-3.8.1.jar;C:\software\apache-maven-3.5.0\repository\org\hibernate\hibernate-core\4.2.2.Final\hibernate-core-4.2.2.Final.jar;C:\software\apache-maven-3.5.0\repository\antlr\antlr\2.7.7\antlr-2.7.7.jar;C:\software\apache-maven-3.5.0\repository\org\jboss\logging\jboss-logging\3.1.0.GA\jboss-logging-3.1.0.GA.jar;C:\software\apache-maven-3.5.0\repository\dom4j\dom4j\1.6.1\dom4j-1.6.1.jar;C:\software\apache-maven-3.5.0\repository\org\jboss\spec\javax\transaction\jboss-transaction-api_1.1_spec\1.0.1.Final\jboss-transaction-api_1.1_spec-1.0.1.Final.jar;C:\software\apache-maven-3.5.0\repository\org\hibernate\javax\persistence\hibernate-jpa-2.0-api\1.0.1.Final\hibernate-jpa-2.0-api-1.0.1.Final.jar;C:\software\apache-maven-3.5.0\repository\org\hibernate\common\hibernate-commons-annotations\4.0.2.Final\hibernate-commons-annotations-4.0.2.Final.jar;C:\software\apache-maven-3.5.0\repository\org\javassist\javassist\3.15.0-GA\javassist-3.15.0-GA.jar;C:\software\apache-maven-3.5.0\repository\mysql\mysql-connector-java\5.1.34\mysql-connector-java-5.1.34.jar;C:\software\apache-maven-3.5.0\repository\log4j\log4j\1.2.17\log4j-1.2.17.jar;C:\software\apache-maven-3.5.0\repository\org\slf4j\slf4j-simple\1.7.7\slf4j-simple-1.7.7.jar;C:\software\apache-maven-3.5.0\repository\org\slf4j\slf4j-api\1.7.7\slf4j-api-1.7.7.jar;C:\software\eclipse\jee-oxygen\eclipse\configuration\org.eclipse.osgi\412\0\.cp;C:\software\eclipse\jee-oxygen\eclipse\configuration\org.eclipse.osgi\411\0\.cp, user.name=Administrator, hibernate.bytecode.use_reflection_optimizer=false, hibernate.show_sql=true, java.vm.specification.version=1.8, sun.java.command=org.eclipse.jdt.internal.junit.runner.RemoteTestRunner -version 3 -port 55732 -testLoaderClass org.eclipse.jdt.internal.junit4.runner.JUnit4TestLoader -loaderpluginname org.eclipse.jdt.junit4.runtime -classNames com.cf.hibernate.test.one2one.ForeignKey, java.home=C:\software\jdk8\jre1.8, sun.arch.data.model=64, hibernate.dialect=org.hibernate.dialect.MySQLDialect, hibernate.connection.url=jdbc:mysql://localhost:3306/test, user.language=zh, java.specification.vendor=Oracle Corporation, awt.toolkit=sun.awt.windows.WToolkit, java.vm.info=mixed mode, java.version=1.8.0_131, java.ext.dirs=C:\software\jdk8\jre1.8\lib\ext;C:\Windows\Sun\Java\lib\ext, sun.boot.class.path=C:\software\jdk8\jre1.8\lib\resources.jar;C:\software\jdk8\jre1.8\lib\rt.jar;C:\software\jdk8\jre1.8\lib\sunrsasign.jar;C:\software\jdk8\jre1.8\lib\jsse.jar;C:\software\jdk8\jre1.8\lib\jce.jar;C:\software\jdk8\jre1.8\lib\charsets.jar;C:\software\jdk8\jre1.8\lib\jfr.jar;C:\software\jdk8\jre1.8\classes, java.vendor=Oracle Corporation, connection.driver_class=com.mysql.jdbc.Driver, file.separator=\, hibernate.hbm2ddl.auto=create, java.vendor.url.bug=http://bugreport.sun.com/bugreport/, sun.io.unicode.encoding=UnicodeLittle, sun.cpu.endian=little, sun.desktop=windows, connection.url=jdbc:mysql://localhost:3306/test, dialect=org.hibernate.dialect.MySQLDialect, sun.cpu.isalist=amd64}
+2017-08-07 16:03:23 DEBUG IntegratorServiceImpl:59 - Adding Integrator [org.hibernate.cfg.beanvalidation.BeanValidationIntegrator].
+2017-08-07 16:03:23 DEBUG Configuration:1753 - Preparing to build session factory with filters : {}
+2017-08-07 16:03:23  INFO DriverManagerConnectionProviderImpl:98 - HHH000402: Using Hibernate built-in connection pool (not for production use!)
+2017-08-07 16:03:23  INFO DriverManagerConnectionProviderImpl:134 - HHH000115: Hibernate connection pool size: 20
+2017-08-07 16:03:23  INFO DriverManagerConnectionProviderImpl:137 - HHH000006: Autocommit mode: false
+2017-08-07 16:03:23  INFO DriverManagerConnectionProviderImpl:151 - HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/test]
+2017-08-07 16:03:23  INFO DriverManagerConnectionProviderImpl:154 - HHH000046: Connection properties: {user=root, password=root}
+2017-08-07 16:03:23 DEBUG DriverManagerConnectionProviderImpl:196 - Opening new JDBC connection
+2017-08-07 16:03:24 DEBUG DriverManagerConnectionProviderImpl:219 - Created connection to: jdbc:mysql://localhost:3306/test, Isolation Level: 4
+2017-08-07 16:03:24 DEBUG JdbcServicesImpl:121 - Database ->
+       name : MySQL
+    version : 5.6.37-log
+      major : 5
+      minor : 6
+2017-08-07 16:03:24 DEBUG JdbcServicesImpl:127 - Driver ->
+       name : MySQL Connector Java
+    version : mysql-connector-java-5.1.34 ( Revision: jess.balint@oracle.com-20141014163213-wqbwpf1ok2kvo1om )
+      major : 5
+      minor : 1
+2017-08-07 16:03:24 DEBUG JdbcServicesImpl:133 - JDBC version : 4.0
+2017-08-07 16:03:24  INFO Dialect:130 - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2017-08-07 16:03:24 DEBUG Configuration:3472 - Processing hbm.xml files
+2017-08-07 16:03:24 DEBUG Configuration:3502 - Process annotated classes
+2017-08-07 16:03:24 DEBUG AnnotationBinder:532 - Binding entity from annotated class: com.cf.hibernate.entity.Student
+2017-08-07 16:03:24 DEBUG Ejb3Column:196 - Binding column: Ejb3DiscriminatorColumn{logicalColumnName'DTYPE', discriminatorTypeName='string'}
+2017-08-07 16:03:24 DEBUG AnnotationBinder:990 - No value specified for 'javax.persistence.sharedCache.mode'; using UNSPECIFIED
+2017-08-07 16:03:24 DEBUG EntityBinder:394 - Import with entity name Student
+2017-08-07 16:03:24 DEBUG EntityBinder:564 - Bind entity com.cf.hibernate.entity.Student on table t_student
+2017-08-07 16:03:24 DEBUG Ejb3Column:196 - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(test.t_student), mappingColumn=t_id, insertable=true, updatable=true, unique=true}
+2017-08-07 16:03:24 DEBUG PropertyBinder:179 - MetadataSourceProcessor property id with lazy=false
+2017-08-07 16:03:24 DEBUG SimpleValueBinder:331 - building SimpleValue for id
+2017-08-07 16:03:24 DEBUG PropertyBinder:260 - Building property id
+2017-08-07 16:03:24 DEBUG Ejb3Column:196 - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(test.t_student), mappingColumn=age, insertable=true, updatable=true, unique=false}
+2017-08-07 16:03:24 DEBUG PropertyBinder:179 - MetadataSourceProcessor property age with lazy=false
+2017-08-07 16:03:24 DEBUG SimpleValueBinder:331 - building SimpleValue for age
+2017-08-07 16:03:24 DEBUG PropertyBinder:260 - Building property age
+2017-08-07 16:03:24 DEBUG Ejb3Column:196 - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(test.t_student), mappingColumn=t_name, insertable=true, updatable=true, unique=false}
+2017-08-07 16:03:24 DEBUG PropertyBinder:179 - MetadataSourceProcessor property name with lazy=false
+2017-08-07 16:03:24 DEBUG SimpleValueBinder:331 - building SimpleValue for name
+2017-08-07 16:03:24 DEBUG PropertyBinder:260 - Building property name
+2017-08-07 16:03:24 DEBUG Ejb3Column:196 - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(test.t_student), mappingColumn=t_pwd, insertable=true, updatable=true, unique=false}
+2017-08-07 16:03:24 DEBUG PropertyBinder:179 - MetadataSourceProcessor property password with lazy=false
+2017-08-07 16:03:24 DEBUG SimpleValueBinder:331 - building SimpleValue for password
+2017-08-07 16:03:24 DEBUG PropertyBinder:260 - Building property password
+2017-08-07 16:03:24 DEBUG AnnotationBinder:532 - Binding entity from annotated class: com.cf.hibernate.entity.Heart
+2017-08-07 16:03:24 DEBUG Ejb3Column:196 - Binding column: Ejb3DiscriminatorColumn{logicalColumnName'DTYPE', discriminatorTypeName='string'}
+2017-08-07 16:03:24 DEBUG AnnotationBinder:990 - No value specified for 'javax.persistence.sharedCache.mode'; using UNSPECIFIED
+2017-08-07 16:03:24 DEBUG EntityBinder:394 - Import with entity name Heart
+2017-08-07 16:03:24 DEBUG EntityBinder:564 - Bind entity com.cf.hibernate.entity.Heart on table t_heart
+2017-08-07 16:03:24 DEBUG Ejb3Column:196 - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(test.t_heart), mappingColumn=id, insertable=true, updatable=true, unique=false}
+2017-08-07 16:03:24 DEBUG PropertyBinder:179 - MetadataSourceProcessor property id with lazy=false
+2017-08-07 16:03:24 DEBUG SimpleValueBinder:331 - building SimpleValue for id
+2017-08-07 16:03:24 DEBUG PropertyBinder:260 - Building property id
+2017-08-07 16:03:24 DEBUG Ejb3Column:196 - Binding column: Ejb3JoinColumn{logicalColumnName='null', referencedColumn='null', mappedBy='heart'}
+2017-08-07 16:03:24 DEBUG Ejb3Column:196 - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(test.t_heart), mappingColumn=body, insertable=true, updatable=true, unique=false}
+2017-08-07 16:03:24 DEBUG Ejb3Column:196 - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(test.t_heart), mappingColumn=content, insertable=true, updatable=true, unique=false}
+2017-08-07 16:03:24 DEBUG PropertyBinder:179 - MetadataSourceProcessor property content with lazy=false
+2017-08-07 16:03:24 DEBUG SimpleValueBinder:331 - building SimpleValue for content
+2017-08-07 16:03:24 DEBUG PropertyBinder:260 - Building property content
+2017-08-07 16:03:24 DEBUG AnnotationBinder:532 - Binding entity from annotated class: com.cf.hibernate.entity.Body
+2017-08-07 16:03:24 DEBUG Ejb3Column:196 - Binding column: Ejb3DiscriminatorColumn{logicalColumnName'DTYPE', discriminatorTypeName='string'}
+2017-08-07 16:03:24 DEBUG AnnotationBinder:990 - No value specified for 'javax.persistence.sharedCache.mode'; using UNSPECIFIED
+2017-08-07 16:03:24 DEBUG EntityBinder:394 - Import with entity name Body
+2017-08-07 16:03:24 DEBUG EntityBinder:564 - Bind entity com.cf.hibernate.entity.Body on table t_body
+2017-08-07 16:03:24 DEBUG Ejb3Column:196 - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(test.t_body), mappingColumn=id, insertable=true, updatable=true, unique=false}
+2017-08-07 16:03:24 DEBUG PropertyBinder:179 - MetadataSourceProcessor property id with lazy=false
+2017-08-07 16:03:24 DEBUG SimpleValueBinder:331 - building SimpleValue for id
+2017-08-07 16:03:24 DEBUG PropertyBinder:260 - Building property id
+2017-08-07 16:03:24 DEBUG Ejb3Column:196 - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(test.t_body), mappingColumn=content, insertable=true, updatable=true, unique=false}
+2017-08-07 16:03:24 DEBUG PropertyBinder:179 - MetadataSourceProcessor property content with lazy=false
+2017-08-07 16:03:24 DEBUG SimpleValueBinder:331 - building SimpleValue for content
+2017-08-07 16:03:24 DEBUG PropertyBinder:260 - Building property content
+2017-08-07 16:03:24 DEBUG Ejb3Column:196 - Binding column: Ejb3JoinColumn{logicalColumnName='null', referencedColumn='null', mappedBy=''}
+2017-08-07 16:03:24 DEBUG Ejb3Column:196 - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(test.t_body), mappingColumn=heart, insertable=true, updatable=true, unique=false}
+2017-08-07 16:03:24 DEBUG AnnotationBinder:532 - Binding entity from annotated class: com.cf.hibernate.entity.one2one.inonetable.Employee
+2017-08-07 16:03:24 DEBUG Ejb3Column:196 - Binding column: Ejb3DiscriminatorColumn{logicalColumnName'DTYPE', discriminatorTypeName='string'}
+2017-08-07 16:03:24 DEBUG AnnotationBinder:990 - No value specified for 'javax.persistence.sharedCache.mode'; using UNSPECIFIED
+2017-08-07 16:03:24 DEBUG EntityBinder:394 - Import with entity name Employee
+2017-08-07 16:03:24 DEBUG EntityBinder:564 - Bind entity com.cf.hibernate.entity.one2one.inonetable.Employee on table Employee
+2017-08-07 16:03:24 DEBUG Ejb3Column:196 - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(Employee), mappingColumn=id, insertable=true, updatable=true, unique=false}
+2017-08-07 16:03:24 DEBUG PropertyBinder:179 - MetadataSourceProcessor property id with lazy=false
+2017-08-07 16:03:24 DEBUG SimpleValueBinder:331 - building SimpleValue for id
+2017-08-07 16:03:24 DEBUG PropertyBinder:260 - Building property id
+2017-08-07 16:03:24 DEBUG Ejb3Column:196 - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(Employee), mappingColumn=address, insertable=true, updatable=true, unique=false}
+2017-08-07 16:03:24 DEBUG Ejb3Column:196 - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(Employee), mappingColumn=city, insertable=true, updatable=true, unique=false}
+2017-08-07 16:03:24 DEBUG PropertyBinder:179 - MetadataSourceProcessor property city with lazy=false
+2017-08-07 16:03:24 DEBUG SimpleValueBinder:331 - building SimpleValue for city
+2017-08-07 16:03:24 DEBUG PropertyBinder:260 - Building property city
+2017-08-07 16:03:24 DEBUG Ejb3Column:196 - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(Employee), mappingColumn=state, insertable=true, updatable=true, unique=false}
+2017-08-07 16:03:24 DEBUG PropertyBinder:179 - MetadataSourceProcessor property state with lazy=false
+2017-08-07 16:03:24 DEBUG SimpleValueBinder:331 - building SimpleValue for state
+2017-08-07 16:03:24 DEBUG PropertyBinder:260 - Building property state
+2017-08-07 16:03:24 DEBUG Ejb3Column:196 - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(Employee), mappingColumn=street, insertable=true, updatable=true, unique=false}
+2017-08-07 16:03:24 DEBUG PropertyBinder:179 - MetadataSourceProcessor property street with lazy=false
+2017-08-07 16:03:24 DEBUG SimpleValueBinder:331 - building SimpleValue for street
+2017-08-07 16:03:24 DEBUG PropertyBinder:260 - Building property street
+2017-08-07 16:03:24 DEBUG PropertyBinder:260 - Building property address
+2017-08-07 16:03:24 DEBUG Ejb3Column:196 - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(Employee), mappingColumn=name, insertable=true, updatable=true, unique=false}
+2017-08-07 16:03:24 DEBUG PropertyBinder:179 - MetadataSourceProcessor property name with lazy=false
+2017-08-07 16:03:24 DEBUG SimpleValueBinder:331 - building SimpleValue for name
+2017-08-07 16:03:24 DEBUG PropertyBinder:260 - Building property name
+2017-08-07 16:03:24 DEBUG Ejb3Column:196 - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(Employee), mappingColumn=salary, insertable=true, updatable=true, unique=false}
+2017-08-07 16:03:24 DEBUG PropertyBinder:179 - MetadataSourceProcessor property salary with lazy=false
+2017-08-07 16:03:24 DEBUG SimpleValueBinder:331 - building SimpleValue for salary
+2017-08-07 16:03:24 DEBUG PropertyBinder:260 - Building property salary
+2017-08-07 16:03:24 DEBUG AnnotationBinder:532 - Binding entity from annotated class: com.cf.hibernate.entity.one2one.foreignkey.Employee
+2017-08-07 16:03:24 DEBUG Ejb3Column:196 - Binding column: Ejb3DiscriminatorColumn{logicalColumnName'DTYPE', discriminatorTypeName='string'}
+2017-08-07 16:03:24 DEBUG AnnotationBinder:990 - No value specified for 'javax.persistence.sharedCache.mode'; using UNSPECIFIED
+2017-08-07 16:03:24 DEBUG EntityBinder:394 - Import with entity name Employee
+2017-08-07 16:24:39 ERROR SqlExceptionHelper:147 - Duplicate entry '0' for key 'PRIMARY'
+2017-08-07 16:24:55 ERROR SqlExceptionHelper:147 - Duplicate entry '0' for key 'PRIMARY'
+2017-08-07 16:25:09 ERROR SqlExceptionHelper:147 - Field 'id' doesn't have a default value
+2017-08-07 16:25:09 ERROR AssertionFailure:43 - HHH000099: an assertion failure occured (this may indicate a bug in Hibernate, but is more likely due to unsafe use of the session): org.hibernate.AssertionFailure: null id in com.cf.hibernate.entity.one2one.jointable.Address entry (don't flush the Session after an exception occurs)
+2017-08-07 17:14:46 ERROR SqlExceptionHelper:147 - Duplicate entry '3' for key 'UK_e8un9ahx1am1s7m83uqhco234'
